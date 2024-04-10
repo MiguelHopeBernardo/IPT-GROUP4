@@ -1,0 +1,7 @@
+def create_tuple_list(input_list):
+    tuple_list = [(num, num ** 2) for num in input_list]
+    return tuple_list
+
+input_list = [1, 2, 3]
+output = create_tuple_list(input_list)
+print(output)
